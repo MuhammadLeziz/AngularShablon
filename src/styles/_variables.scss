@@ -9,6 +9,11 @@
   --color-black-alt: #000;
   --color-black: #18121e;
   --color-green: #1a3e3e;
+  --color-gray: #f3f5f4;
+
+  --color-text: var(--color-black);
+  --color-text-muted: #3f3a44;
+  --color-border: rgb(255 255 255 / 40%);
 
   --border-radius: #{rem(4)};
   --border-radius-mid: #{rem(6)};
@@ -19,4 +24,7 @@
   --transition: all 200ms linear;
 
   --header-height: #{rem(121)};
+  --section-padding-y: #{rem(100)};
+
+  --button-height: #{rem(50)};
 }
